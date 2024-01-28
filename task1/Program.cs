@@ -5,12 +5,10 @@
 Console.Clear();
 string outputNaturalNumber(int m, int n)
 {
-    if (n == m)
-        //return $"{n}";
+    if (n == m)      
         return $"{n}";
     return (m < n) ? outputNaturalNumber(m, n - 1) + $", {n}" : $"{m}, " + outputNaturalNumber(m - 1, n);
 }
 
 Console.WriteLine(outputNaturalNumber(4, 10));
 Console.WriteLine(outputNaturalNumber(10, 4));
-
