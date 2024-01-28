@@ -77,7 +77,7 @@ for (int n = 0; n < 4; n++)
 {
     for (int m = 0; m < 7; m++)
     {
-        Console.WriteLine($"Функция Аккермана А({n}, {m}) = {recAckerman(n, m)}");;
+        Console.WriteLine($"Функция Аккермана А({n}, {m}) = {recAckerman(n, m)}");
     }
     Console.WriteLine();
 }
